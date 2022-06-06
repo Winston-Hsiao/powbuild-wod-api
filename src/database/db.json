@@ -1,0 +1,107 @@
+{
+  "workouts": [
+    {
+      "id": "33dbae02-c147-4e28-863c-db7bd472b2d6",
+      "name": "Winston's Push Day",
+      "mode": "push",
+      "equipment": [
+        "barbell",
+        "dumbbells"
+      ],
+      "exercises": [
+        "Barbell Bench Press (5x5)", 
+        "Dumbbell Shoudler Press (3x8)", 
+        "Dumbbell Lateral Raise (3x10)",
+        "Dumbbell Tricep Extension (3x10)"
+      ],
+      "createdAt": "4/20/2022, 2:21:56 PM",
+      "updatedAt": "4/20/2022, 2:21:56 PM",
+      "trainerTips": [
+        "Bench working sets: 75-80% 1 rep max weight", 
+        "2 minute rest between bench sets", 
+        "1 min rest between accessory sets"
+      ]
+    },
+    {
+      "id": "3a3d9aaa-608c-49a7-a004-66305ad4ab50",
+      "name": "Winston's Pull Day",
+      "mode": "pull",
+      "equipment": [
+        "barbell",
+        "dumbbells",
+        "cable machine"
+      ],
+      "exercises": [
+        "Barbell Deadlifts (3x5)",
+        "Dumbbell Rows (3x10)",
+        "Cable Single Arm Lat Pulldowns (3x10)"
+      ],
+      "createdAt": "4/21/2022, 1:15:44 PM",
+      "updatedAt": "4/22/2022, 8:21:56 AM",
+      "trainerTips": [
+        "Deadlifts should move with good speed, focus on explosiveness",
+        "Rest 3 mins between deadlift sets",
+        "Focus on contracting lats during single arm lat pulldowns"
+      ]
+    },
+    {
+      "id": "a34d2618-01d1-4682-9288-8de1343e53c7",
+      "name": "Winston's Leg Day",
+      "mode": "legs",
+      "equipment": [
+        "barbell",
+        "dumbbells"
+      ],
+      "exercises": [
+        "Barbell Squat (5x5)",
+        "Dumbbell Lunges (3x8)",
+        "Single Leg Dumbbell Calf Raises (2x15)"
+      ],
+      "trainerTips": [
+        "Focus on proper bracing through the abdomen/torso",
+        "Breathe in/out at top of squat, hold breath/brace during squat",
+        "Include a deficit for calf raises to extend range of motion and stretch calves"
+      ],
+      "createdAt": "4/22/2022, 5:50:17 PM",
+      "updatedAt": "4/22/2022, 5:50:17 PM"
+    }
+  ],
+  "members": [
+    {
+      "id": "33a410bc-849f-4e7e-bfc8-4ef283ee4b19",
+      "name": "Winston H",
+      "gender": "male",
+      "dateOfBirth": "05/22/2003",
+      "email": "winston@mail.com",
+      "password": "4949349420ec497c1dc890c45179d44fb13220239325172af02d1fb6635922956"
+    },
+    {
+      "id": "3b9130d4-47a7-4085-800e-0144f6a46059",
+      "name": "Aarya P",
+      "gender": "male",
+      "dateOfBirth": "06/10/2003",
+      "email": "aarya@mail.com",
+      "password": "8a1ea5669b749354110dcba3fac5546c16e6d0f73a37f35a84f6b0d7b3c22fcc"
+    },
+    {
+      "id": "31817fb1-03a1-4b4a-8d27-854ac893cf41",
+      "name": "Ben K",
+      "gender": "male",
+      "dateOfBirth": "03/11/2003",
+      "email": "ben@mail.com",
+      "password": "18eb2d6c5373c94c6d5d707650d02c3c06f33fac557c9cfb8cb1ee625a649ff3"
+    }
+  ],
+  "records": [
+    {
+      "id": "ad75d475-ac57-44f4-a02a-8f6def58ff56",
+      "workout": "4a3d9aaa-608c-49a7-a004-66305ad4ab50",
+      "record": "315 lbs"
+    },
+    {
+      "id": "62251cfe-fdb6-4fa6-9a2d-c21be93ac78d",
+      "workout": "4a3d9aaa-608c-49a7-a004-66305ad4ab50",
+      "record": "405 lbs"
+    }
+  ]
+}
