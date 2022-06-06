@@ -24,8 +24,8 @@ Powerbuilding is a combination of two different training styles: powerlifting an
 3. enter `$ npm run dev ` into terminal
 
 You should see:
->`API is listening on port 3000`
- `Version 1 Docs are available on http://localhost:3000/api/v1/docs`
+>API is listening on port 3000<br />
+ Version 1 Docs are available on http://localhost:3000/api/v1/docs
 
 inside your terminal if everything is working correctly.
 
@@ -33,46 +33,49 @@ inside your terminal if everything is working correctly.
 
 Here you should see the workouts formatted in json, located in the local db.json folder `/src/database/db.json`
 
-### Example Use Cases
+## Example Use Cases<br />
 *API utilizes http requests such as GET, POST, PATCH, DELETE, etc...*
 
-**Retrieve all workouts (GET)**
-[http://localhost:3000/api/v1/workouts](http://localhost:3000/api/v1/workouts)
+### Retrieve all workouts (GET)
+>GET request with the url below<br />
+[http://localhost:3000/api/v1/workouts](http://localhost:3000/api/v1/workouts)<br />
+Traveling to this link directly in web browser will send a GET request and display workout info in json format within web browser
 
-**Retrieve a specific workout using a workout id (GET)**
-[http://localhost:3000/api/v1/workouts/workoutid](http://localhost:3000/api/v1/workouts/33dbae02-c147-4e28-863c-db7bd472b2d6) 
-[http://localhost:3000/api/v1/workouts/33dbae02-c147-4e28-863c-db7bd472b2d6](http://localhost:3000/api/v1/workouts/33dbae02-c147-4e28-863c-db7bd472b2d6)
+### Retrieve a specific workout using a workout id (GET)
+>GET request with the url below<br />
+>[http://localhost:3000/api/v1/workouts/workoutid](http://localhost:3000/api/v1/workouts/33dbae02-c147-4e28-863c-db7bd472b2d6)<br />
+[http://localhost:3000/api/v1/workouts/33dbae02-c147-4e28-863c-db7bd472b2d6](http://localhost:3000/api/v1/workouts/33dbae02-c147-4e28-863c-db7bd472b2d6)<br />
+Display workout info in json format for workout with matching id
 
-**Create a workout (POST)**
-Send a post request to [http://localhost:3000/api/v1/workouts](http://localhost:3000/api/v1/workouts) with a request body containing a json object (workout info)
+### Create a workout (POST)
+Send a post request to [http://localhost:3000/api/v1/workouts](http://localhost:3000/api/v1/workouts) with a request body containing a json object (workout info)<br />
 Below is an example of an acceptable workout in json:
-> {
-  "name": "Bench Day",
-  "mode": "AMRAP 20",
-  "equipment": [
-    "rack",
-    "barbell"
-   ],
-   "exercises": [
-    "45lbs 1x8",
-    "95lbs 1x8",
-    "135lbs 1x8",
-    "165lbs 1x5"
-   ],
-   "trainerTips": [
-    "RPE 8"
-   ]
+> {<br />
+  "name": "Bench Day",<br />
+  "mode": "AMRAP 20",<br />
+  "equipment": [
+    "rack",
+    "barbell"
+  ],<br />
+  "exercises": [
+    "45lbs 1x8",
+    "95lbs 1x8",
+    "135lbs 1x8",
+    "165lbs 1x5"
+  ],<br />
+  "trainerTips": [
+    "RPE 8"
+  ]<br />
 }
 
-**Update a workout (PATCH)**
-Similar usage as when creating a workout except PATCH is used instead of POST
-see `Create a workout` above for details
-[http://localhost:3000/api/v1/workouts/workoutid](http://localhost:3000/api/v1/workouts/33dbae02-c147-4e28-863c-db7bd472b2d6)
+### Update a workout (PATCH)
+>Similar usage as when creating a workout except PATCH is used instead of POST see `Create a workout` above for details<br />
+[http://localhost:3000/api/v1/workouts/workoutid](http://localhost:3000/api/v1/workouts/33dbae02-c147-4e28-863c-db7bd472b2d6)<br />
 [http://localhost:3000/api/v1/workouts/33dbae02-c147-4e28-863c-db7bd472b2d6](http://localhost:3000/api/v1/workouts/33dbae02-c147-4e28-863c-db7bd472b2d6)
 
-**Delete a workout (DELETE)**
-Request sent with DELETE using the workout's UUID as a path
-[http://localhost:3000/api/v1/workouts/workoutid](http://localhost:3000/api/v1/workouts/33dbae02-c147-4e28-863c-db7bd472b2d6)
+### Delete a workout (DELETE)
+>Request sent with DELETE using the workout's UUID as a path<br />
+[http://localhost:3000/api/v1/workouts/workoutid](http://localhost:3000/api/v1/workouts/33dbae02-c147-4e28-863c-db7bd472b2d6)<br />
 [http://localhost:3000/api/v1/workouts/33dbae02-c147-4e28-863c-db7bd472b2d6](http://localhost:3000/api/v1/workouts/33dbae02-c147-4e28-863c-db7bd472b2d6)
 
 ## Documentation
@@ -80,8 +83,8 @@ Request sent with DELETE using the workout's UUID as a path
 You can view documentation at http://localhost:3000/api/v1/docs while the API runs locally on your device
 >enter `$ npm run dev` in terminal while in the project's folder to run API locally
 
-> `API is listening on port 3000
-Version 1 Docs are available on http://localhost:3000/api/v1/docs`
+> API is listening on port 3000<br />
+Version 1 Docs are available on http://localhost:3000/api/v1/docs
 
 should be visible in terminal when running successfully
 
@@ -94,6 +97,6 @@ should be visible in terminal when running successfully
 - Add more functionality regarding users/members and records (WIP)
 ---
 ## References
-[REST API Design Best Practices Handbook – How to Build a REST API with JavaScript, Node.js, and Express.js](https://www.freecodecamp.org/news/rest-api-design-best-practices-build-a-rest-api/)
-[API Cache](https://www.npmjs.com/package/apicache)
-[Swagger.io](https://swagger.io/)
+[REST API Design Best Practices Handbook – How to Build a REST API with JavaScript, Node.js, and Express.js](https://www.freecodecamp.org/news/rest-api-design-best-practices-build-a-rest-api/)<br />
+[API Cache](https://www.npmjs.com/package/apicache)<br />
+[Swagger.io](https://swagger.io/)<br />
