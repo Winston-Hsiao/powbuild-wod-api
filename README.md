@@ -1,5 +1,6 @@
 # Powerbuilding Workout of the Day API
 By: Winston Hsiao
+
 Last Updated: June 2022
 
 ### What is powerbuilding?
@@ -90,6 +91,7 @@ should be visible in terminal when running successfully
 - Implement caching for other endpoints (caching is currently  only implemented with retrieving all workouts)
 - Implement functionality for security/permissions
 - Discuss usage of external database options such as MongoDB, etc instead of storing workout info locally in repo file
+- Add more functionality regarding users/members and records (WIP)
 ---
 ## References
 [REST API Design Best Practices Handbook – How to Build a REST API with JavaScript, Node.js, and Express.js](https://www.freecodecamp.org/news/rest-api-design-best-practices-build-a-rest-api/)
