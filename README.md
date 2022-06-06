@@ -9,7 +9,7 @@ Powerbuilding is a combination of two different training styles: powerlifting an
 ---
 ## About the API
 - Allows users to view, create, update, and delete workouts through various endpoints
-    -  Parameters such as workout id, or workout mode/type can be used to view, update or delete     specific workouts
+    -  Parameters such as workout id, or workout mode/type can be used to view, update or delete specific workouts
 - A UUID (universally unique identifier) is generated for each workout
 - Features caching for faster load times
 - **Usage & documentation info below**
@@ -21,9 +21,9 @@ Powerbuilding is a combination of two different training styles: powerlifting an
 
 1. Clone Repository
 2. Navigate to folder in terminal
-3. enter `$ npm run dev ` into terminal
+3. enter `$ npm run dev` into terminal
 
-You should see:
+You should see
 >API is listening on port 3000<br />
  Version 1 Docs are available on http://localhost:3000/api/v1/docs
 
@@ -34,7 +34,8 @@ inside your terminal if everything is working correctly.
 Here you should see the workouts formatted in json, located in the local db.json folder `/src/database/db.json`
 
 ## Example Use Cases<br />
-*API utilizes http requests such as GET, POST, PATCH, DELETE, etc...*
+*API utilizes http requests such as GET, POST, PATCH, DELETE, etc...*<br />
+I recommend using [Postman](https://www.postman.com/) when testing usage/endpoints.<br />
 
 ### Retrieve all workouts (GET)
 >GET request with the url below<br />
